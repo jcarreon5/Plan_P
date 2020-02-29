@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Pills",
+    "about": " lalala some info.",
+    "imageurl": "url",
+    "gender":"women",
+    "effectiveness": "99%",
+    "usage":"Daily",
+    "procedure": "At Home",
+    "duration": "Until you stop taking them",
+    "delivery_method": "mail",
+    "insurence": "medical"
+
+  }
+]
