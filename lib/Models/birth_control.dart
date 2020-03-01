@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'dart:collection';
 //import '../data/pokemons.dart';
 
-class Birth_control {
-  const Birth_control({
+// ignore: camel_case_types
+class Birth_Control {
+  const Birth_Control({
     @required this.id,
     this.name,
     this.image,
@@ -16,9 +17,10 @@ class Birth_control {
     this.procedure,
     this.duration,
     this.insurence,
+    this.delivery_method,
   });
 
-  Birth_control.fromJson(dynamic json)
+  Birth_Control.fromJson(dynamic json)
       : id = json["id"],
         name = json["name"],
         image = json["imageurl"],
